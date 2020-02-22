@@ -1,0 +1,12 @@
+/**app.wxss**/
+page{
+  height: 100%;
+}
+text{
+    font-family: Microsoft Yahei;
+}
+.container{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}

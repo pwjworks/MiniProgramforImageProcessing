@@ -1,0 +1,11 @@
+
+<view id="container">
+  <view class="box">
+    <button class="upload-download" catchtap="onClickHandler">上传</button>
+    <image class="img upload"  catchtap="uploadHandler" src="{{img_path}}"></image>
+  </view>
+  <view class="box">
+    <button class="upload-download" catchtap="uploadHandler">选择图片</button>
+    <image class="img processed"></image>
+  </view>
+</view>

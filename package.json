@@ -1,0 +1,22 @@
+{
+  "name": "miniprogramforimageprocessing",
+  "version": "1.0.0",
+  "description": "图片处理小程序",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwjworks/MiniProgramforImageProcessing.git"
+  },
+  "author": "pwjworks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pwjworks/MiniProgramforImageProcessing/issues"
+  },
+  "homepage": "https://github.com/pwjworks/MiniProgramforImageProcessing#readme",
+  "dependencies": {
+    "ali-oss": "^6.5.1"
+  }
+}

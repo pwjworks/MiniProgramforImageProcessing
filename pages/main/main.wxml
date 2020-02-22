@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="box">
+      <image class="img upload"  catchtap="uploadHandler" src="{{img_path}}" wx:if="{{chosen}}"></image>
+      <button class="upload-download" wx:if="{{chosen}}" catchtap="uploadHandler">上传图片</button>
+    <button class="upload-download" wx:else catchtap="onClickHandler">选择图片</button>
+  </view>
+  <view class="box">
+    <image wx:if="{{done}}" class="img processed"></image>
+  </view>
+</view>
