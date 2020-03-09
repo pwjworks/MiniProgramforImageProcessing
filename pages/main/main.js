@@ -18,15 +18,18 @@ Page({
     })
   },
   uploadHandler: function () {
-    const that = this
+    const data = this.data
+    const that=this
+    console.log(data.img_path)
     wx.uploadFile({
-      url: '',
-      filePath: that.img_path,
+      url: 'http://127.0.0.1:8000/uploadServer/upload',
+      filePath: data.img_path,
+      name:'file',
       success(res) {
         that.setData({
           uploaded: true
         })
-        //TODO loading
+        console.log(res.data)
       }
     })
   }
